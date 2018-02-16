@@ -1,0 +1,235 @@
+.MP_Container {
+	position: relative;
+	margin: 0 auto;
+	width: 700px;
+}
+
+audio {
+	border: 0;
+	font: inherit;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+	width: 500px;
+}
+
+* {
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	-webkit-tap-highlight-color: transparent;
+}
+.add-bottom {
+	margin-bottom: 20px !important;
+	background-color: gray;
+}
+
+.left {
+	float: left;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.right {
+	float: right;
+	font-weight: 400;
+	font-size: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+audio {
+	margin: 0 15px 0 14px;
+	width: 670px;
+}
+
+.backButton{
+	cursor: pointer;
+	height: 30px;
+	width: 40px;	
+}
+
+.backButton:hover{
+	background-color: lightgray;
+}
+
+#audiowrap {
+	background-color: #fafafa;
+	border: solid gray 1px;
+	border-radius: 4px;
+	margin: 0 auto;
+}
+
+#plwrap {
+	margin: 0 auto;
+}
+
+#tracks {
+	min-height: 65px;
+	position: relative;
+	text-align: center;
+	text-decoration: none;
+	top: 13px;
+}
+
+#nowPlay {
+	display: inline;
+}
+
+#npTitle {
+	margin: 0;
+	padding: 21px;
+	text-align: right;
+}
+
+#npAction {
+	padding: 21px;
+	position: absolute;
+}
+
+#plList {
+	list-style-type: none;
+	margin: 0;
+}
+
+#plList li {
+	background-color: #231F20;
+	cursor: pointer;
+	margin: 0;
+	padding: 21px 0;
+}
+
+#plList li:hover {
+	background-color: red;
+}
+
+.plItem {
+	position: relative;
+}
+
+.plTitle {
+	left: 50px;
+	overflow: hidden;
+	position: absolute;
+	right: 65px;
+	text-overflow: ellipsis;
+	top: 0;
+	white-space: nowrap;
+}
+
+.plTitle a{
+	color: white;
+}
+
+.plTitle a:hover{
+	color: lightgray;
+}
+
+.plNum {
+	padding-left: 21px;
+	width: 25px;
+}
+
+.plLength {
+	padding-left: 21px;
+	position: absolute;
+	right: 21px;
+	top: 0;
+}
+
+.plSel, .plSel:hover {
+	background-color: #262223 !important;
+	cursor: default !important;
+}
+
+
+html body {
+	color: #5a5a5a;
+}
+
+html audio {
+	margin-left: 9px;
+	width: 100%;
+	margin: 0px auto;
+	margin-bottom: -5px;
+}
+
+html #audiowrap {
+}
+
+html #tracks {
+	min-height: 64px;
+	top: 12px;
+}
+
+html a[id^="btn"] {
+}
+
+html a[id^="btn"]:hover {
+	text-decoration: none;
+}
+
+html #plList li {
+	border-radius: 4px;
+	margin-left: -40px;
+	width: 106%;
+	margin-top: 1px;
+	background-color: #232323;
+	font-weight: 200;
+	font-size: 20px;
+	color: white;
+}
+
+html #plList li:hover {
+	background-color: #4b5251;
+}
+
+html .plSel, html .plSel:hover {
+	background-color: darkslategray !important;
+}
+
+html[data-useragent*="Android"] body {
+	color: #373837;
+}
+
+html[data-useragent*="Android"] audio {
+	margin-left: 4px;
+	width: 689px;
+}
+
+html[data-useragent*="Android"] #audiowrap {
+	background-color: #fafafa;
+}
+
+html[data-useragent*="Android"] #tracks {
+	min-height: 75px;
+	top: 23px;
+}
+
+html[data-useragent*="Android"] a[id^="btn"] {
+	background-color: #fafafa;
+	color: #373837;
+}
+
+html[data-useragent*="Android"] a[id^="btn"]:hover {
+	background-color: #eee;
+}
+
+html[data-useragent*="Android"] #plList li {
+	background-color: #fafafa;
+}
+
+html[data-useragent*="Android"] #plList li:hover {
+	background-color: #eee;
+}
+
+html[data-useragent*="Android"] .plSel, html[data-useragent*="Android"] .plSel:hover {
+	background-color: #eee !important;
+}
+
+.MP_container_1{
+	width: 94%;
+	margin-top: 50px;
+	margin-left: 3%;
+}
